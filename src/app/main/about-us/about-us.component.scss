@@ -1,0 +1,53 @@
+$mintColor: #32dbc6;
+$textColor: #4d4d4d;
+$iconColor: #6c757d;
+$hoverLink: #0ea996;
+
+.container{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 4%;
+    padding-bottom: 8%
+}
+
+.aboutUs{
+    &-title{
+        font-weight: bolder;
+        color: #000000;
+        font-size: 40px;
+        padding-bottom: 4%;
+    }
+    &-text{
+        color: $textColor;
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+}
+
+.aboutTopics{
+    padding-bottom: 4%;
+    &-icon{
+        &-material{
+            color: $iconColor;
+            font-size: 48px;
+        }
+    }
+    &-content{
+        &-title{
+            color: $textColor;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        &-text{
+            color: $textColor;
+            font-size: 16px;
+        }
+        &-link{
+            font-size: 16px;
+            font-weight: bolder;
+            color: $mintColor;
+            &:hover{
+                color: $hoverLink;
+            }
+        }
+    }
+}

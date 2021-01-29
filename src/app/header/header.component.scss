@@ -1,0 +1,37 @@
+$mintColor: #32dbc6;
+
+.header {
+    background-image: url(../../assets/images/hero_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    font-family: 'Open Sans', sans-serif;
+    &-inner {
+        margin: auto;
+        text-align: center;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        &-typewriter {
+            color: white;
+        }
+        // &-wrap{
+
+        // }
+        &-text{
+            color: white; 
+        }
+        &-span {
+            color: $mintColor;
+        }
+        &-button{
+            &-text{
+                color: white;
+            }
+            background-color: $mintColor;
+            border-color: $mintColor;
+            border-radius: 20px;
+        }        
+    }
+}

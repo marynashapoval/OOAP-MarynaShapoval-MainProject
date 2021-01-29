@@ -1,0 +1,33 @@
+$mintColor: #32dbc6;
+$navColor: #3f4346;
+
+.navbar{
+    padding: 1%;
+    font-family: 'Open Sans', sans-serif;
+    &-brand{
+        margin-left: 10%;
+        font-size: 35px;
+    }
+    &-toggler{
+        border: none;
+        margin-right: 10%;
+    }
+    &-collapse{
+        margin-right: 10%;
+    }
+}
+
+.nav-link{
+    font-size: 20px;
+    color: $navColor !important;
+    &:hover{
+        color: $mintColor !important;
+    } 
+    &-home{
+        color: $mintColor !important;
+    }
+}
+
+span{
+    color: $mintColor;
+}

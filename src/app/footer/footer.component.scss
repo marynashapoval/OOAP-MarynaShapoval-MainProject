@@ -1,0 +1,51 @@
+$textColor: #737373;
+$linkColor: #999999;
+
+.footer {
+    background-color: #333333;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Open Sans', sans-serif;
+    &::after{
+        content: '';
+        padding: 2%;
+        width: 60%;
+        border-bottom: solid 1px $textColor;
+        position: absolute;
+    }
+}
+
+p {
+    color: $textColor;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: $linkColor;
+    &:hover{
+        color: white;
+    }
+}
+
+h4 {
+    color: white;
+}
+
+// .fa {
+//     color: $linkColor;
+//     &:hover{
+//         color: white;
+//     }
+// }
+
+.rights {
+    text-align: center;
+    background-color: #333333;
+    padding-bottom: 3%;
+    color: $textColor;
+}

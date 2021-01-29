@@ -1,0 +1,42 @@
+$textColor: #737373;
+
+.container{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    color: white;
+    background-color: black;
+}
+
+.read{
+    padding-bottom: 15px;
+    &-image{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    &-title{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    &-text{
+        margin-top: 20px;
+        font-size: 16px;
+        color: $textColor;
+    }
+    &-link{
+        margin-top: 2px;
+        font-size: 16px;
+        color: white;
+        text-decoration: underline;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    &-icon{
+        color: white;
+        padding-right: 10px;
+    }
+}

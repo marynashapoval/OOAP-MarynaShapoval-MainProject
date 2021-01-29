@@ -1,0 +1,67 @@
+$mintColor: #32dbc6;
+$textColor: #4d4d4d;
+$dataBlogColor: #d3d3d3;
+$hoverLink: #0ea996;
+.container {
+    font-family: "Open Sans", sans-serif;
+    padding-top: 4%;
+    padding-bottom: 8%;
+}
+
+.blog {
+    &-header {
+        font-size: 48px;
+        font-weight: bolder;
+        color: #000000;
+        padding-bottom: 4%;
+        text-align: center;
+    }
+    &-link {
+        color: $mintColor;
+        font-size: 20px;
+        &:hover {
+            color: $hoverLink;
+        }
+    }
+    &-list,
+    li {
+        display: inline-flex;
+        list-style: none;
+        padding-left: 0px;
+        font-size: 14px;
+        color: $dataBlogColor;
+        &-date {
+            &::before {
+                margin-left: 10px;
+                margin-right: 10px;
+                content: "○";
+                color: $dataBlogColor;
+            }
+        }
+        &-news {
+            &::before {
+                content: "○";
+                margin-left: 10px;
+                margin-right: 10px;
+                color: $dataBlogColor;
+            }
+            &-link {
+                color: $mintColor;
+                &:hover {
+                    color: $hoverLink !important;
+                }
+            }
+        }
+    }
+    &-text {
+        font-size: 16px;
+        color: $textColor !important;
+    }
+    &-continueLink {
+        color: $mintColor;
+        font-size: 16px;
+        :hover {
+            color: $hoverLink !important;
+        }
+    }
+}

@@ -1,0 +1,106 @@
+$mintColor: #32dbc6;
+$numbersColor: #f2f4f5;
+$textColor: #6b6b6b;
+$behindNumber: #efefef;
+
+.container {
+    font-family: "Open Sans", sans-serif;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.intro {
+    &-innovate {
+        &-number {
+            font-size: 8rem;
+            position: absolute;
+            z-index: -1;
+            top: -4rem;
+            left: -3rem;
+            font-weight: 900;
+            color: lighten($behindNumber, 3%);
+        }
+        &-title {
+            color: $mintColor !important;
+            font-size: 32px;
+        }
+        &-text {
+            margin-bottom: 24px;
+            font-size: 16px;
+        }
+        &-list {
+            list-style: none;
+            padding-left: 0;
+            &-item{ 
+                font-size: 16px;
+                padding-bottom: 5%;
+                &::before {
+                content: "✓ ";
+                color: $mintColor;
+                }
+            }
+        }
+    }
+    &-create {
+        &-number {
+            font-size: 8rem;
+            position: absolute;
+            z-index: -1;
+            top: -4rem;
+            left: -3rem;
+            font-weight: 900;
+            color: lighten($behindNumber, 3%);
+        }
+        &-title {
+            color: $mintColor !important;
+            font-size: 32px;
+        }
+        &-text {
+            font-size: 16px;
+            margin-bottom: 24px;
+        }
+        &-list {
+            list-style: none;
+            padding-left: 0;
+            &-item{ 
+                font-size: 16px;
+                padding-bottom: 5%;
+                &::before {
+                content: "✓ ";
+                color: $mintColor;
+                }
+            }
+        }
+    }
+    &-scale {
+        &-number {
+            font-size: 8rem;
+            position: absolute;
+            z-index: -1;
+            top: -4rem;
+            left: -3rem;
+            font-weight: 900;
+            color: lighten($behindNumber, 3%);
+        }
+        &-title {
+            color: $mintColor !important;
+            font-size: 32px;
+        }
+        &-text {
+            font-size: 16px;
+            margin-bottom: 24px;
+        }
+        &-list {
+            list-style: none;
+            padding-left: 0;
+            &-item{ 
+                font-size: 16px;
+                padding-bottom: 5%;
+                &::before {
+                content: "✓ ";
+                color: $mintColor;
+                }
+            }
+        }
+    }
+}

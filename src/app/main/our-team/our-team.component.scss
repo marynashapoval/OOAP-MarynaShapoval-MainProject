@@ -1,0 +1,46 @@
+$titleAndText: #4d4d4d;
+$socialMedia: #777777;
+$hoverSocialMedia: #2b2b2b;
+$positionColor: #d3d3d3;
+
+.container {
+    font-family: "Open Sans", sans-serif;
+    padding-top: 4%;
+    padding-bottom: 8%
+}
+
+.ourTeam{
+    &-title{
+        text-align: center;
+        color: #000000;
+        font-weight: bolder;
+        font-size: 48px;
+        padding-bottom: 6%;
+    }
+    &-content{
+        &-image{
+
+        }
+        &-name{
+            color: $titleAndText;
+            font-size: 18px;
+            margin-bottom: 3%;
+        }
+        &-position{
+            color: $positionColor;
+            font-size: 12px;
+            margin-bottom: 5%;
+        }
+        &-about{
+            color: $titleAndText;
+            font-size: 16px;
+            margin-bottom: 5%;
+        }
+    }
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

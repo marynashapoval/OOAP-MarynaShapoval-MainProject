@@ -1,0 +1,58 @@
+$mintColor: #32dbc6;
+$textColor: #4d4d4d;
+$iconColor: #6c757d;
+$hoverLink: #0ea996;
+
+.container {
+    font-family: "Open Sans", sans-serif;
+    padding-top: 4%;
+    padding-bottom: 8%;
+}
+
+.contact {
+    font-size: 16px;
+    color: $textColor;
+    &-header {
+        color: #000000 !important;
+        font-size: 40px !important;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    &-title {
+        font-weight: bolder;
+    }
+    &-text {
+    }
+    &-link {
+    }
+}
+
+a{
+    color: $mintColor !important;
+    &:hover{
+        color: $hoverLink;
+    }
+}
+
+.form {
+    &-row {
+        &-group {
+            padding-bottom: 20px;
+            &-title {
+                font-size: 16px;
+                color: #000000;
+            }
+        }
+    }
+    &-control{
+        border-radius: 1rem;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        line-height: 1.5;
+        &:hover, :focus{
+            border-color: $mintColor;
+        }
+    }
+    &-button {
+    }
+}
