@@ -9,12 +9,12 @@ function getRandomInt(min, max) {
 
 class App extends React.Component {
   state = {
-    array: Array(5).fill(Array(5).fill(0)),
+    array: Array(10).fill(Array(10).fill(0)),
     max: 0
   }
 
   generateArrayAndFindMax = () => {
-    let newArray = Array(5).fill(0).map(x => (Array(5).fill(0).map(y => getRandomInt(-100, 100))))
+    let newArray = Array(10).fill(0).map(x => (Array(10).fill(0).map(y => getRandomInt(-100, 100))))
     this.setState((state) => (
       { 
         ...state,
