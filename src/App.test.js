@@ -3,7 +3,7 @@ import App from './App';
 
 test('render text of max value', () => {
   render(<App />);
-  const maxValueText = screen.getByText(/Максимальний елемент матриці 10x10/i);
+  const maxValueText = screen.getByText(/Максимальний елемент матриці/i);
   expect(maxValueText).toBeInTheDocument();
 })
 
